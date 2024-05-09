@@ -1,0 +1,326 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    background-image: url("images/Sky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    background-attachment: fixed;
+    background-color: #000;
+    padding-right: 100px;
+}
+
+:root {
+    --primary-color: rgba(17, 17, 17, 0.8);
+    
+}
+
+.split {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding: 20px 5% 20px 5%;
+}
+  
+.left {
+  background-color: var(--primary-color);
+}
+  
+
+.right {
+    left: 30%;
+    right: 1;
+    text-align: center;
+
+}
+
+
+.profile{
+    font-size: 10px;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.holderP{
+    text-align: center;
+    font-size: 25%;
+}
+
+.Tholder{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 50%;
+}
+
+button{
+    color: white;
+    border: none;
+    font-size: 110%;
+    margin: 0;
+    background: none;
+    
+}
+
+button.data{
+    color: black;
+    font-size: 110%;
+    margin: 0;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+button:hover.data{
+    color:white;
+    background-color: graytext;
+    
+}
+
+button:hover{
+    
+    color: graytext;
+    
+}
+
+.content{
+    display: none;
+}
+
+.contentData{
+    display: none;
+}
+
+.image_block    {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    text-align: justify;
+    
+}
+
+.image_block a  {
+    width: 10%;
+    text-align: left;
+    bottom: 0px;
+}
+
+.box {
+    right: 10;
+    top: 3%;
+    left: 27%;
+    color: white;
+    font-size: 25%;
+    padding: 10px;
+    position: absolute;
+    text-align: start;
+}
+
+
+table{
+    background-color: blue;
+    width: 100%;
+    background-color: rgba(17, 17, 17);
+    margin-bottom:10px;
+    border-radius: 10px;
+    
+}
+
+td{
+    padding:20px;
+    word-wrap: break-word; /* For legacy browsers */
+    overflow-wrap: break-word; /* For modern browsers */
+    white-space: normal; /* Allow wrapping */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: graytext;
+    cursor: pointer;
+}
+
+.ExampleImg{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.paddingHome{}
+
+.menuBTN{
+    font-size: 40px;
+}
+
+.container{
+    background-color:  rgba(17, 17, 17);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+@media (min-width: 1281px){
+    body , html{
+        font-size: 80px;
+    }
+    .paddingHome{
+        padding: 0,0,0,0;
+    }
+    .menuBTN{
+        font-size: 40px;
+        padding-left: 0;
+    }
+    .box{
+        left: 30%;
+        right: 0;
+        font-size: 110;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button.data{
+        font-size: 100%;
+        margin: 3%;
+    }
+    .Tholder{
+        font-size: 30%;
+    } 
+}
+
+@media (max-width: 1280px){
+    body , html{
+        font-size: 50px;
+    }
+    .paddingHome{
+        padding: 0,0,0,0;
+    }
+    .menuBTN{
+        font-size: 35px;
+        padding-left: 0;
+    }
+    .box{
+        left: 25%;
+        right: 0;
+        
+    }
+    button.data{
+        font-size: 100%;
+        margin: 3%;
+    }
+    .Tholder{
+        font-size: 30%;
+    }
+}
+
+@media (max-width: 1024px){
+    body , html{
+        font-size: 50px;
+    }
+    .paddingHome{
+        padding: 0,0,0,0;
+    }
+    .menuBTN{
+        font-size: 20px;
+        padding-left: 0;
+    }
+    .box{
+        left: 25%;
+        right: 0;
+    }
+    button.data{
+        font-size: 100%;
+        margin: 3%;
+    }
+    .Tholder{
+        font-size: 30%px;
+    }
+}
+
+@media (max-width: 768px){
+    body , html{
+        font-size: 50px;
+    }
+    .paddingHome{
+        padding: 0,0,0,0;
+    }
+    .menuBTN{
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .box{
+        left: 25%;
+        right: 0;
+    }
+    button.data{
+        font-size: 100%;
+        margin: 3%;
+    }
+    .Tholder{
+        font-size: 30%;
+    }
+}
+
+@media (max-width: 640px){
+    body , html{
+        font-size: 50px;
+    }
+    .paddingHome{
+        padding: 0,0,0,0;
+    }
+    .menuBTN{
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .box{
+        left: 25%;
+        right: 0;
+    }
+    button.data{
+        font-size: 100%;
+        margin: 3%;
+    }
+    .Tholder{
+        font-size: 30%;
+    }
+}
+
+
+@media (max-width: 475px){
+    body , html{
+        font-size: 50px;
+    }
+    .paddingHome{
+        padding: 0,0,0,0;
+    }
+    .menuBTN{
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .box{
+        left: 25%;
+        right: 0;
+    }
+    button.data{
+        font-size: 100%;
+        margin: 3%;
+    }
+    .Tholder{
+        font-size: 30%;
+    }
+
+}
+
+
+
+
+
